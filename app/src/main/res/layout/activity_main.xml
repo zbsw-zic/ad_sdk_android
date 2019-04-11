@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:layout_height="wrap_content">
+
+        <EditText android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:hint="通栏广告Id"
+                  android:id="@+id/etBanner"/>
+
+        <Button android:id="@+id/btnBanner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Banner广告"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="10dp"
+                  android:layout_height="wrap_content">
+
+        <EditText android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:hint="原生广告Id"
+                  android:layout_weight="1"
+                  android:id="@+id/etNative"/>
+
+        <Button android:id="@+id/btnNative"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="原生广告"/>
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="10dp"
+                  android:layout_height="wrap_content">
+
+        <EditText android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:hint="插屏广告Id"
+                  android:id="@+id/etInter"/>
+
+        <Button android:id="@+id/btnInter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="插屏广告"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="10dp"
+                  android:layout_height="wrap_content">
+
+        <EditText android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:hint="全屏广告Id"
+                  android:id="@+id/etSplash"/>
+
+        <Button android:id="@+id/btnSplash"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="启动页广告"/>
+    </LinearLayout>
+
+
+</LinearLayout>

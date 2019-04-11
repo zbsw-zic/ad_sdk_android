@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:/Users/shidongdi/git/sdk/AdSDKDemo/app/libs/ad_sdk-debug.aar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ad_sdk-debug.aar/13e97dabc63d3eff1790e900c4da3847/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ad_sdk-debug.aar/13e97dabc63d3eff1790e900c4da3847/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
