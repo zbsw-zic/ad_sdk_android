@@ -11,8 +11,6 @@ class AppApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        val adSdkConfig = AdSdkConfig()
-        adSdkConfig.debug = true
-        SDKManager.instance.init(this, "b110e14bd", adSdkConfig)
+        SDKManager.instance.init(this, "b110e14bd", AdSdkConfig(true))
     }
 }
