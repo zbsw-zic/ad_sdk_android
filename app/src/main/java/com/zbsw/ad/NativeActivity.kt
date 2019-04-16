@@ -26,16 +26,6 @@ class NativeActivity:AppCompatActivity() {
         val nativeAd = NativeAd(applicationContext,adId,"${Constants.NativeAdType.IMAGE_LEFT.type}")
         nativeAd.loadAd(object : INativeListener {
             override fun onLoadFailed(code: String, msg: String) {
-            }
-
-            override fun onLoadSuccess(data: List<NativeAdInfo>) {
-                //处理原生广告
-            }
-        })
-
-
-        nativeAd.loadAd(object : INativeListener {
-            override fun onLoadFailed(code: String, msg: String) {
 
             }
 
